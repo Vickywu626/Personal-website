@@ -1,0 +1,54 @@
+body{
+    background-color: #D8DBD1;    /**设置整个页面的背景颜色**/
+    width: 1000px;    /**凝胶布局**/
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Verdana,Geneva,Arial,sans-serif;    
+}
+header.top{       /**页眉区用来放我的logo**/
+    background-color: #7E8A64;
+    height: 75px;
+}
+header.top img#logo1{  /**设置我的专属logo位置**/
+    margin-top: 10px;
+}
+header.top img#logo{    /**设置页眉图片的位置**/
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+div.inner {
+    background-color: #A9B395;   /**导航区的背景颜色**/
+}
+li.nav_list{              /**控制导航区每一个超链接板块的大小**/
+    display: inline-block;    /**不设置的话就会变成列表元素**/
+    width: 230px;
+    height: 41px;
+    text-align: center;
+}
+ul#index_list{    /**控制导航区距离个人图片的间距**/ 
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+a.atext{               /**设置导航区超链接的字体格式**/
+    color: #fff;
+    text-decoration: none;   /**去掉超链接的下划线**/
+    line-height: 41px;
+    display: inline-block;
+    width: 130px;
+    height: 41px;
+    text-align: center;
+}
+div#photo_1{           /**设置图片的大小，使之刚好左右对齐**/
+    width: 1000px;     
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {              /**页脚区**/
+    background-color:  #7E8A64;
+    text-align:center;
+    margin: 0px 10px 10px 0px;   /**简便写法**/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 90%;
+    width: 1000px;
+}

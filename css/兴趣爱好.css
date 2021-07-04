@@ -1,0 +1,122 @@
+body{
+    background-color: #D8DBD1;    /**设置整个页面的背景颜色**/
+    width: 1000px;    /**凝胶布局**/
+    margin-left: auto;
+    margin-right: auto;    
+}
+div.top{             
+    background-color: #7E8A64;
+    height: 75px;
+    width: 1000px;
+    position: absolute;   /**用绝对定位**/
+}
+header.top img#logo1{  /**设置我的专属logo位置**/
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header.top img#logo{    /**设置页眉图片的位置**/
+    margin-left: 20px;
+    margin-bottom: 10px;   
+}
+div.nav_list{               /**左边的边栏导航区**/
+    background-color: #A9B395;   /**边栏区的背景颜色**/
+    width: 200px;
+    height: 400px;
+    position: absolute;     /**绝对定位**/
+    margin-top: 80px;
+}
+div.list{                 /**设置边栏区的每个小div**/
+    color: #fff;
+    margin-top: 15px;
+    line-height: 50px;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;   /**文字居中但是div并不居中**/
+    font-size: 20px;
+    font-weight:900;
+    border-bottom: solid white 1px;
+}
+a.atext{               /**设置导航区超链接的字体格式**/
+    color: #fff;
+    text-decoration: none;
+    line-height: 41px;
+    display: inline-block;
+    width: 130px;
+    height: 41px;
+    text-align: center;
+}
+div.right{          /**右边的具体兴趣展示区**/
+    background-color: white;
+    margin-left: 210px;   /**左边的边栏导航是浮动元素所以右边的区域要设置margin**/
+    width: 790px;
+    margin-top: 80px;
+    position: absolute;  /**绝对定位**/
+}
+div.interest{      /**每一个兴趣都是用这个盒子装**/
+    height: 350px;
+    width: 790px;
+}
+div.left_photo img.int_1{   /**第奇数个盒子的照片位置**/
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 300px;
+    float: left;
+    border-radius:10%;     /**圆角**/
+}
+div.int_bg {        /**文字解释区域的背景图**/
+    height: 330px;
+    width: 450px;
+    margin-top: 30px;
+    float: right;
+    background-image: url(../img/text_bg.png)  ;
+    background-size: 450px 330px;
+}
+div.int_text span{     /**文字解释区的标题**/
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 18px;  
+}
+div.int_text{        /**文字解说区的正文部分**/
+    height: 100px;
+    width: 280px;
+    margin-left: 90px;
+    margin-top: 30px;
+    line-height: 25px; 
+}
+div.right_photo {     /**第偶数个盒子的照片位置**/
+    float: right;
+}
+div.right_photo img.int_2{
+    margin-top: 20px;
+    width: 300px;
+    margin-right: 25px;
+    border-radius:10%;   /**照片圆角**/
+}
+div.int_bg_2{    /**文字解释区域的背景图**/
+    height: 300px;
+    width: 450px;
+    margin-top: 30px;
+    float: left;   /**跟第一个兴趣块相比，调换了左右**/
+    background-image: url(../img/text_bg.png)  ;
+    background-size: 450px 330px;
+}
+div.int_bg_3 {        /**文字解释区域的背景图**/
+    height: 280px;
+    width: 450px;
+    margin-top: 30px;
+    float: right;   /**浮动布局**/
+    background-image: url(../img/text_bg.png)  ;
+    background-size: 450px 280px;
+}
+footer {              /**页脚区**/
+    background-color:  #D8DBD1;
+    text-align:center;
+    margin: 0px 10px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 90%;
+    width: 1000px;
+    padding-top: 1500px;
+}
+

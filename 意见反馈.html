@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--引用外部样式表-->
+     <link href="css/意见反馈.css" rel="stylesheet"/> 
+    
+     <!--页眉区-->
+     <header class="top">
+         <img id="logo1" src="img/logo1.png" alt="name" width="100">
+         <img id="logo" src="img/tele.png" alt="contect" width="150">
+     </header>
+     <!--导航区-->
+     <nav>
+        <div class="inner">
+            <ul id="index_list">
+                <li class="nav_list">
+                    <a class="atext" href="index.html" title="返回" >返回>></a>                
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--正文内容区，使用表单-->
+    <div id=contain><!--采用流体布局-->
+        <div class="welcome"><!--写在前面的欢迎语-->
+            <div> 
+                <p>亲爱的访客你好：</p>
+                <p>相信您看了我的个人主页之后一定对我有了更深的了解啦，那我们不妨交个朋友吧~~ 如果您愿意的话，还请留下您的联系方式和对本网站的建议哟。</p>
+            </div>
+        </div>
+        <!--第一个表单，用来统计访客对于网站的评价-->
+         <table class="question-wrapper">
+                <tr>
+                    <td class="question-text">
+                        <!--同一行字有不同的样式，用span元素-->
+                        <span id="character">*</span>您觉得我的个人网站设计得如何？
+                    </td>
+                </tr>
+                <tr>
+                    <!--单选区-->
+                    <td class="answer">
+                        <ul class="answer-list"><!--使用无序列表-->
+                            <li class="answer-item">
+                                <input type="radio" name="item12345"><!--设置小圆点供选择-->                                
+                                <!--为单选按钮或复选框控件增加<label>元素时，一组中所有控件的name相同，每个控件的id不同。-->
+                                <label for="item1">非常好，我很喜欢</label>
+                            </li>
+                            <li class="answer-item">
+                                <input type="radio"  name="item12345"><!--设置小圆点供选择-->
+                                <label for="item2">挺好的，很有个性</label>
+                            </li>
+                            <li class="answer-item">
+                                <input type="radio"  name="item12345"><!--设置小圆点供选择-->
+                                <label for="item3">还行吧，还有上升的空间</label>
+                            </li>
+                            <li class="answer-item">
+                                <input type="radio"  name="item12345"><!--设置小圆点供选择-->
+                                <label for="item4">不是很好，没有发挥出应有的水平</label>
+                            </li>
+                            <li class="answer-item">
+                                <input type="radio"  name="item12345"><!--设置小圆点供选择-->
+                                <label for="item5">特别差！一点都不喜欢（呜呜呜</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+         </table>
+         <!--第二个板块-->
+        <div id="question2">
+            <table class="question-wrapper"><!--用来统计访客们的建议-->
+                <tr>
+                    <td class="question-text">
+                        <span class="front"><span id="character">*</span>您对注册页有什么想法，请大声说出来吧！（例如：哪里有问题，哪些功能做得不够好等）</span>
+                    </td>                                                            
+                </tr>
+                <tr>
+                    <td class="answer"><!--设置文本框来收集访客建议--->
+                        <textarea class="empty" rows="5" cols="50"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--第三个板块-->
+        <div id="group-2">
+            <div class="collect"><span >请留下您的联系方式吧~</span></div>
+            <table class="question-wrapper">
+                <tr>
+                    <td class="question-text">
+                        <p>如果您愿意为我的个人网站留下宝贵的建议，请填写以下信息（信息仅作为内部资料绝不外泄）</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="answer">
+                        <ul class="subquestion-list"><!--用无序列表来收集大家的信息-->
+                            <li class="answer-item">
+                                <label for="answername">姓&emsp;名</label>
+                                <input type="text" size="20">
+                            </li>
+                            <li class="answer-item">
+                                <label for="answernumber">手机号</label>
+                                <input type="text" size="20">
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--提交按钮的部分-->
+        <table class="submit">
+            <tr>
+                <td>
+                    <button class="submit-button" type="submit"> 
+                        <a href="index.html"><span class="sub-text">提交</span></a>
+                    </button>
+                </td>
+            </tr>
+        </table> 
+    </div>
+    <!--页脚区-->
+    <footer>
+        &copy; 2021, 吴雨凡的个人主页
+        <br>
+        All the right of interpretation belongs to Miss Wu Yufan
+    </footer> 
+</body>
+</html>

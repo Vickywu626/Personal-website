@@ -1,0 +1,164 @@
+body{
+    background-color: #D8DBD1;    /**设置整个页面的背景颜色**/
+    width: 1000px;    /**凝胶布局**/
+    margin-left: auto;
+    margin-right: auto;    
+}
+header.top{
+    background-color: #7E8A64;
+    height: 75px;
+}
+header.top img#logo1{  /**设置我的专属logo位置**/
+    margin-top: 10px;
+}
+header.top img#logo{    /**设置页眉图片的位置**/
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+div.inner {
+    background-color: #A9B395;   /**导航区的背景颜色**/
+}
+li.nav_list{              /**控制导航区"返回>>"超链接板块的大小**/
+    display: inline-block;    /**不设置的话就会变成列表元素**/
+    width: 188px;
+    height: 41px;
+    margin-left: 800px;     /**不能设置float，所以用margin将“返回>>”靠右边**/
+}
+ul#index_list{    /**控制导航区距离后边内容的间距**/ 
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+a{      /**设置所有超链接的格式，下面更具体的超链接设置会继承这个**/
+    text-decoration: none;
+}
+a.atext{               /**设置导航区超链接的字体格式**/
+    color: #fff;
+    line-height: 41px;
+    display: inline-block;
+    width: 130px;
+    height: 41px;
+    text-align: center;
+}
+div#contain{            /**正文内容区**/
+    padding: 10px;
+    border: seashell solid 3px;
+}
+div.welcome{   /**一小段文字说明**/
+  margin-left: 20px;
+  margin-right: 20px;
+}
+div.welcome p{   /**欢迎区的文字说明**/
+    text-indent:2em;    /**开头空两格**/
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.question-wrapper {    /**对于注册页面的看法调查表单**/
+    width: 920px;
+    margin: 20px auto 10px auto;   /**简便写法**/
+    border: 1px solid #b6ebc6;   /**简便写法**/
+    padding: 0px;
+}
+td.question-text{    /**调查表的标题**/
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    background-color:rgb(224, 212, 180);
+    padding: 6px 10px;
+}
+span#character {   /**设置标题前面的小星号**/
+    color: yellow;
+    font-size: 9px;
+    font-family: verdana;
+    margin-right: 5px;
+}
+td.answer{   /**单项选择区域**/
+    padding: 11px 24px 16px 37px;  /**简便写法**/
+}
+ul.answer-list{    /**某个无序列表的特殊格式**/
+    padding: 0px;
+}
+ul{     /**所有无序列表的统一格式**/
+    list-style: disc inside;
+    margin: 0px;
+}
+li.answer-item{    /**单选列表项的格式**/
+    list-style-type: none;
+    text-align: left;  /**左对齐**/
+    margin: 0 0 6px 6px;  /**简便记法**/
+    font-size: 12px;
+    line-height: 15.1px;
+    height: 15.1px;
+    color: #1d2d45;
+}
+label{    /**单选后面的一小段解释**/
+    font-size: 12px;
+    line-height: 20px;
+    color: #1d2d45;
+}
+input{    /**单选小圆点**/
+    margin-top: 2px;
+    font: 400 13.3333px Arial;
+}
+textarea.empty{   /**多行文本元素**/
+    margin-top: 10px 10px 10px 0px;
+}
+div.collect{   /**收集信息区域**/
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 30px ;
+}
+.question-text p{  /**信息收集区域的第一行文字说明**/
+    font-size: 12px;
+    line-height: 120%;
+    color: #1d2d45;
+    font-weight: bold;
+    margin-block-start: 1em;   /**逻辑块的开始边距**/
+    margin-block-end: 1em;     /**逻辑块的结束边距**/
+    margin: 0px;
+}
+ul.subquestion-list{     /**提交信息的无序列表**/
+    margin: 1em;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+div#group-2 label{  /**姓名和手机号这几个字的样式**/
+    padding: 0.3em 1em 0% 0%;
+}
+div#group-2 li.answer-item{   
+    margin-bottom: 10px;  /**最后一个无序列表项距离底部的距离**/
+}
+table.submit{  /**提交部分的样式**/
+    width: 920px;
+    margin-left: 25px;
+    text-align: center;
+}
+button.submit-button{    /**提交按钮**/
+    display: inline-block;
+    position: relative;  /**相对位置**/
+    padding: 0px;
+    border: 1px solid #aed0ea;  /**边框样式**/
+    background:url(../img/sub.png) 50% 50% repeat-x;  /**背景图只在横向重复**/
+    font-weight: bold;
+    color: #0070a3;
+    border-bottom-right-radius: 6px; /**提交按钮边框的圆滑度**/
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+span.sub-text{  /**“提交”两个字的样式**/
+    padding: .4em 1em;
+    display: block;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #0070a3;
+}
+footer {              /**页脚区**/
+    text-align:center;
+    margin: 0px 10px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 90%;
+    width: 1000px;
+}

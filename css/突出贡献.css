@@ -1,0 +1,104 @@
+body{
+    background-color: #D8DBD1;    /**设置整个页面的背景颜色**/
+    width: 1000px;    /**凝胶布局**/
+    margin-left: auto;
+    margin-right: auto;    
+}
+header.top{     /**页眉区**/
+    background-color: #7E8A64;
+    height: 75px; 
+}
+header.top img#logo1{     /**设置我的专属logo位置**/
+    margin-top: 10px;
+}
+header.top img#logo{    /**设置页眉图片的位置**/
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+div.inner {
+    background-color: #A9B395;   /**导航区的背景颜色**/
+}
+li.nav_list{              /**控制导航区"返回>>"超链接板块的大小**/
+    display: inline-block;    /**不设置的话就会变成列表元素**/
+    width: 188px;
+    height: 41px;
+    margin-left: 800px;     /**不能设置float，所以用margin将“返回>>”靠右边**/
+}
+ul#index_list{    /**控制导航区距离后边内容的间距**/ 
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+a.atext{               /**设置导航区超链接的字体格式**/
+    color: #fff;
+    text-decoration: none;
+    line-height: 41px;
+    display: inline-block;
+    width: 130px;
+    height: 41px;
+    text-align: center;
+}
+div#contain{            /**正文内容区**/
+    padding: 10px;
+    border: seashell solid 3px;
+}
+div.cont_1{     /**每一段的标题**/
+    height: 70px;
+    width: 980px;
+    margin-top: 20px;
+}
+div.cont_1 p{     /**每一段的文字说明**/
+    text-align: center;   /**段落居中**/
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;  /**字体加粗**/
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 0px;   /**减小文段和标题的间距**/
+}
+div.cont_1_1 {
+    height: 20px;
+    width: 30px;        /**利用三行关键代码让图片居中**/    
+    margin-left: auto;
+    margin-right: auto;
+}
+img.title_pic{             /**设置标题下面的小绿线**/
+    text-align: center;
+    display: table-cell;
+}
+div.cont_2{
+    width: 980px;
+}
+div.cont_2 p{            /**设置文段格式**/
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 28px;
+    font-size: 16px;
+    text-indent:2em;
+    letter-spacing: 1px;  /**设置字符之间的距离**/
+}
+div.cont_2 span{     /**同一段文字中的特殊强调格式**/
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(192, 77, 48)
+}
+div.rest{       /**调整间距**/
+    height: 10px;
+}
+div.photo_cont{     /**居中放置照片的区域**/
+    text-align: center;
+}
+div.photo_cont img{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius:15%;     /**圆角**/
+}
+footer {              /**页脚区**/
+    text-align:center;
+    margin: 0px 10px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 90%;
+    width: 1000px;
+}

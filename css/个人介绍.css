@@ -1,0 +1,95 @@
+body{
+    background-color: #D8DBD1;    /**设置整个页面的背景颜色**/
+    width: 1000px;    /**凝胶布局**/
+    margin-left: auto;
+    margin-right: auto;    
+}
+header.top{     /**页眉区**/
+    background-color: #7E8A64;
+    height: 75px; 
+}
+header.top img#logo1{     /**设置我的专属logo位置**/
+    margin-top: 10px;
+}
+header.top img#logo{    /**设置页眉图片的位置**/
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+div.inner {
+    background-color: #A9B395;   /**导航区的背景颜色**/
+}
+li.nav_list{              /**控制导航区"返回>>"超链接板块的大小**/
+    display: inline-block;    /**不设置的话就会变成列表元素**/
+    width: 188px;
+    height: 41px;
+    margin-left: 800px;     /**不能设置float，所以用margin将“返回>>”靠右边**/
+}
+ul#index_list{    /**控制导航区距离后边内容的间距**/ 
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+a.atext{               /**设置导航区超链接的字体格式**/
+    color: #fff;
+    text-decoration: none;
+    line-height: 41px;
+    display: inline-block;
+    width: 130px;
+    height: 41px;
+    text-align: center;
+}
+div.left{           /**左边的盒子**/
+    background-color: #C0C6B2;
+    width: 350px;
+    height: 940px;
+    float: left;
+    margin-bottom: 30px;
+}
+img#me{               /**我的登记照**/
+    margin-top:100px ;
+    border-radius: 50%;   /**把照片变圆**/
+}
+.text p{         /**照片下面的个人信息**/
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+div.right{       /**个人介绍右边的部分**/
+    background-color: #C0C6B2;
+    width: 640px;
+    float: right;   /**浮动布局，实现左右分布**/
+    height: 940px;
+    margin-bottom: 30px;
+}
+table{          /**用表格的形式介绍自己的信息**/
+    margin-top: 7px;
+    border: solid #fff;   /**实线边框**/
+    border-width: 1px 0px 0px;
+    margin-left: 20px;
+    width: 600px;
+    border-collapse: collapse;  /**表格的两边框合并为一条**/
+}
+table tr td.title{     /**表格的第一行比较特殊**/
+    text-indent: initial;
+    height: 32px;
+    background-color: rgb(201, 186, 146);
+    font-size: 18px;
+    line-height: 2.0;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 8px;    /**设置字体的间距**/
+}
+td {
+    padding: 2px 10px;
+    height: 37px;
+    font-size: 18px;
+}
+footer {              /**页脚区**/
+    background-color:  #D8DBD1;
+    text-align:center;
+    margin: 0px 10px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 90%;
+    width: 1060px;
+    padding-top: 900px;
+}
